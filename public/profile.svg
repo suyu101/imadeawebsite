@@ -1,0 +1,26 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  role="img"
+  aria-label="Profile photo"
+>
+  <!-- Rounded rectangle mask -->
+  <defs>
+    <clipPath id="avatarMask">
+      <rect width="120" height="120" rx="20" />
+    </clipPath>
+  </defs>
+
+  <!-- Background (optional—keeps same look as your old SVG) -->
+  <rect width="120" height="120" rx="20" fill="#000000" />
+
+  <!-- Your image -->
+  <image
+    href="/site.jpg"    
+    width="120"
+    height="120"
+    preserveAspectRatio="xMidYMid slice"
+    clipPath="url(#avatarMask)"
+  />
+</svg>
